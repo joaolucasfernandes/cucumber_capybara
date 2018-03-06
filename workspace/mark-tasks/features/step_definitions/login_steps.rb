@@ -16,5 +16,6 @@ Então("devo ser autenticado com Sucesso") do
 end
 
 Então("devo ver a minha lista de tarefas") do
+  @task.wait_for_lista_de_tarefas
   expect(@task.tasks_header.text).to eql 'Painel de Atividades'
 end
