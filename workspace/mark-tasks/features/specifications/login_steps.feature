@@ -1,8 +1,8 @@
 #language: pt
 
 Funcionalidade: Login
-Como um usuário
-Posso me cadastrar no sistema
+Como um usuário cadastrado
+Posso me autenticar no sistema
 Para que eu possa ver a minha lista de tarefas
 
 @login @tentativas
